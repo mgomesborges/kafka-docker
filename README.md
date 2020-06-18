@@ -20,7 +20,7 @@ This tutorial provides a step-by-step instruction on how to deploy a Kafka broke
 
 Here you find tutorials for two versions of Kafka configurations:
 
-* [Wurstmeister Kafka and kafka-python](./wurstmeister/README.md)
+* [Wurstmeister Kafka and kafka-python](./wurstmeister/)
 * Confluent Kafka and confluent-kafka-python
 
 ## References
