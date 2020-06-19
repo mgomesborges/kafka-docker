@@ -1,4 +1,4 @@
-# Setting up Confluent Kafka and confluent-kafka
+# Setting up Confluent Kafka and confluent-kafka-python
 
 We are going to use these two docker images:
 
