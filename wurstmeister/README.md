@@ -82,7 +82,7 @@ RUN pip install --no-cache-dir -r /workspace/requirements.txt
 Build the Docker image:
 
 ```bash
-docker build -t kafka-app-py .
+docker build --rm --tag kafka-app-py .
 ```
 
 Run the `produce_consume.py` script inside the Docker container:
@@ -132,3 +132,15 @@ docker image rmi \
     wurstmeister/kafka:latest \
     wurstmeister/zookeeper:latest
 ```
+
+Remove Python virtual environment:
+
+```bash
+rmvirtualenv kafka
+```
+
+## References
+
+* [GitHub wurstmeister/kafka-docker](https://github.com/wurstmeister/kafka-docker)
+* [GitHub wurstmeister/kafka-docker Kafka connectivity](https://github.com/wurstmeister/kafka-docker/wiki/Connectivity)
+* [kafka-python client for Apache Kafka](https://github.com/dpkp/kafka-python)
